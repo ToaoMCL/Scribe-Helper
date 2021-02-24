@@ -19,7 +19,7 @@ namespace DnD_Bot
         public CommandsNextModule Commands { get; private set; }
 
 
-        public async Task RunAync()
+        public async Task RunAsync()
         {
             var json = string.Empty;
             using (var fs = File.OpenRead("config.json"))
